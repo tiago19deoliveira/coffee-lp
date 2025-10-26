@@ -80,7 +80,7 @@ section {
 }
 
 .btn:hover {
- letter-spacing: 0.1rem;
+  letter-spacing: 0.1rem;
 }
 
 .home-container {
@@ -123,7 +123,6 @@ section {
 .title span {
   color: #fff;
   text-transform: uppercase;
-
 }
 
 .about .row {
@@ -147,103 +146,102 @@ section {
   line-height: 1.8;
 }
 
-.box{
-    display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: 1.5rem;
+.box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
 }
 
-.menu .box .box-container{
-    text-align: center;
-    border: var(--border);
-    padding: 5rem;
-    cursor:pointer;
+.menu .box .box-container {
+  text-align: center;
+  border: var(--border);
+  padding: 5rem;
+  cursor: pointer;
 }
 
-.menu .box .box-container:hover{
-    background-color: #fff;
-
+.menu .box .box-container:hover {
+  background-color: #fff;
 }
 
-.menu .box .box-container:hover>*{
-    color: var(--black);  
+.menu .box .box-container:hover > * {
+  color: var(--black);
 }
 
-.menu .box .box-container img{
-    height: 10rem;
+.menu .box .box-container img {
+  height: 10rem;
 }
 
-.menu .box .box-container h3{
-    color : #fff;
-    font-size: 2rem;
-    padding: 1rem 0;
+.menu .box .box-container h3 {
+  color: #fff;
+  font-size: 2rem;
+  padding: 1rem 0;
 }
 
-.menu .box .box-container .price{ 
-    color: #fff;
-    font-size: 2.5rem;
-    padding: 0.5rem 0;
+.menu .box .box-container .price {
+  color: #fff;
+  font-size: 2.5rem;
+  padding: 0.5rem 0;
 }
 
-.menu .box .box-container .span{ 
-    font-size: 1.5rem;
-    text-decoration: line-through;
-    font-weight:lighter;
+.menu .box .box-container .span {
+  font-size: 1.5rem;
+  text-decoration: line-through;
+  font-weight: lighter;
 }
 
-.review .box .box-container{
- border: var(--border);
- text-align: center;
- padding: 3rem 2rem;
+.review .box .box-container {
+  border: var(--border);
+  text-align: center;
+  padding: 3rem 2rem;
 }
 
-.review .box .box-container p{
- font-size: 1.5rem;
- color: #fff;
- padding: 2rem 0;
- line-height: 1.8;
- font-weight: lighter;
+.review .box .box-container p {
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 2rem 0;
+  line-height: 1.8;
+  font-weight: lighter;
 }
 
-.review .box .box-container h3{
- color: #fff;
- font-size: 3rem;
- margin: 1rem 0;
+.review .box .box-container h3 {
+  color: #fff;
+  font-size: 3rem;
+  margin: 1rem 0;
 }
 
-.review .box .box-container img{
- height: 7rem;
- width: 7rem;
- border-radius: 50 %
+.review .box .box-container img {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50 %;
 }
 
 .review .box .box-container .user {
-    height: 7rem;
-    width: 7rem;
-    border-radius: 50%;
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
 }
 
 .address {
-    display:flex;
-    align-items:center;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .footer {
-    text-align: center;
+  text-align: center;
 }
 
 .footer .share {
-    padding: 1rem 0;
+  padding: 1rem 0;
 }
 
-.footer .share img{
-   margin: 0.3rem;
-   cursor:pointer;
-   border-radius: 50%;
-   padding: 1rem;
+.footer .share img {
+  margin: 0.3rem;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 1rem;
 }
 
-.footer .share img:hover{
-  background-color: var(--main-color)
+.footer .share img:hover {
+  background-color: var(--main-color);
 }
